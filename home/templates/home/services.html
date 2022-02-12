@@ -1,0 +1,93 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Services</h2>
+          <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li>Services</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right">
+            <video autoplay loop width=100%>
+              <source src="{% static 'assets/video/VID3.mp4' %}" type="video/mp4" >  
+            <video>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <h2>Warehouseing</h2>
+            </h5>
+              At MikeExpo we provide ware housing service to our clients. We have a very large storage capacity that can be used by our clients who needs temporary storage for some time. Our warehouse have a state of the house security installation that help provide safety and security for products left in our warehouse.
+            </h5>
+            <h4 class="fst-italic" style="color:green;">
+              Safety and Security is our priority.
+            </h4>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <h2>Transportation</h2>
+            <h5>
+              We also provide services in the are of transportation. We have different type of vehicle intentionally designed for tranportation of goods of diffent kind. At MIkeExpo we provide safe and relaible transportation services to our clients. We make sure your goods arrive safely at the given location and on time.
+            </h5>
+
+            <h3 class="fst-italic" style="color:green;">
+              safe and relaible delivery on time.
+            </h3>
+          </div>
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="{% static 'assets/img/slide/slide4.jpg' %}" style="width:100%" alt="cargo truck">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right">
+            <video loop autoplay width=100%>
+              <source src="{% static 'assets/video/VID4.mp4' %}" type="video/mp4" >  
+            <video> 
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <h2>Consultation</h2>
+            </h5>
+              We also provide Consultation services to other companies. With the expertise that we have we advice our clients on how to store and transport heavy machine parts securely and safely to prevent any unforseen occurances.
+            </h5>
+            <h4 class="fst-italic" style="color:green;">
+              Quality consultation serveces.
+            </h4>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+  </main><!-- End #main -->
+{% endblock content %}

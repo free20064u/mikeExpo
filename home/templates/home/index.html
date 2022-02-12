@@ -1,0 +1,97 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({% static 'assets/img/slide/slide4.jpg' %});">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to <span>Mike Exports and Logistics</span></h2>
+              <p>We are one of the best companies in the world that deals with the exports and transportation of heavy duty machine parts across the glode</p>
+              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/slide5.jpg' %});">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2 class="logo me-auto"><span style="color:#1bbd36;">Mik</span>Expo</h2>
+              <p>We deliver products to any part of the world as long as our services is needed. With MikExpo you product will be safely delivered to you.</p>
+              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/slide6.jpg' %});">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+				<h2><span style="color:#1bbd36;">Mik</span>Expo</h2>
+				<p>A leader in transportation and movememt of logistics accross the world.</p>
+              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2>Mike Exports and logistics</h2>
+            <h3 style="color:#1bbd36;">We Deliver As Promised</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <ul class="fst-italic">
+              <li>
+                <i class="ri-check-double-line"></i>
+				        Our determination is to become the excellent service company for trading , We are ready to serve global trading enterprises with professional and international service standard to keep pace with the world.
+              </li>
+              <li>
+                <i class="ri-check-double-line"></i>
+				        We believe that profit is of great importance to a company, yet it is not everything. Our actions must focus greatly on how to realize a win-win situation.
+              </li>
+              <li><i class="ri-check-double-line"></i>
+				We hold the idea of people-oriented, customer-first and look for the elites in this field. We hold strong esteem for our career partners while furnishing with a broad stage to actualize their own uniqueness and personal success.</li>
+				<li><i class="ri-check-double-line"></i>
+				We hold the faith that in the future, our company would always keep to be professional and dedicated wherever it is.
+				</li>
+				<li><i class="ri-check-double-line"></i>
+				When we recollect the past, all we have done today will become the most beautiful memory.
+				</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+
+  </main><!-- End #main -->
+{% endblock content %}
